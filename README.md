@@ -5,7 +5,7 @@ Python utility to convert any file to hex, and export to C Code ( *.cpp; *.c ). 
 Author:    		Time Brand
 Date:      		August 7, 2019
 License:   		MIT Opensource License (see license.txt) 
-Compatability: 	Python 2/3
+Compatability:  Python 2/3
 Version:		1.0.0
 ```
 
@@ -28,7 +28,7 @@ $ python FileExportToCCode.py infile
 ``` bash
 $ python FileExportToCCode.py test1.png
 ```
-Process the file *test1.png*. Export to a file with *16* hex bytes on each row(You can modify the bytes per line 5 in the code).
+Process the file *test1.png*. Export to a file with *16* hex bytes on each row(You can modify line 5 in the code to change the bytes on each row).
 
 ### Output:
 
