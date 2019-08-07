@@ -2,11 +2,11 @@
 Python utility to convert any file to hex, and export to C Code ( *.cpp; *.c ). Used to D3D Create Texture ( D3DXCreateTextureFromFileInMemory ) or other occasions in need in C++ projects.
 
 ```
-Author:    		Time Brand
-Date:      		August 7, 2019
-License:   		MIT Opensource License (see license.txt) 
+Author:         Time Brand
+Date:           August 7, 2019
+License:        MIT Opensource License (see license.txt) 
 Compatability:  Python 2/3
-Version:		1.0.0
+Version:        1.0.0
 ```
 
 ### Any file exported to hex Overview
