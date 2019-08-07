@@ -32,7 +32,7 @@ with open(args.filename, 'rb') as fin:
             if len(line) > 0:
                 fout.write(b'    0x')
                 fout.write(b', 0x'.join(line))
-                #最后一行剩余空白补齐
+                #The last line of bytes is partially filled with blank space
                 #if len(line) < bytes_per_line:
                 #   fout.write(b'      ' * (bytes_per_line - len(line)))
                 if a != size:
